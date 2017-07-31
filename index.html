@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title></title>
+    <style>
+        html {
+            transform-origin: top;
+            transform: scale(1,1.5);
+        }
+        body {
+            margin: 0;
+            background-color: black;
+            color: white;
+        }
+        .chirp:nth-child(even){
+            background-color: #070707;
+        }
+        .chirp {
+            width: 100vw;
+            height: 50vh;
+            padding-top: 10vh;
+            padding-bottom: 15vh;
+        }
+        .container {
+            margin: 0 auto;
+            padding-bottom: 20vh;
+            width: 80%;
+            height: 60vh;
+        }
+
+        .username {
+            height: 60%;
+            font-size: 20vh;
+            word-wrap: break-word;
+            line-height: 16vh;
+        }
+        .episode {
+            height: 10%;
+            font-family: sans-serif;
+            font-size: 5vh;
+            font-weight: bold;
+        }
+        .tweet {
+            height: 30%;
+            font-size: 5vh;
+        }
+</style>
+</head>
+<body>
+<div class="chirp">
+    <div class="container">
+        <div class="username">@USERNAME</div>
+        <div class="episode">EPISODE:<span class="date">20170731</span></div>
+        <div class="tweet">
+            <span class="pronoun">She</span> said,"<span class="tweet">This is an example tweet</span>"
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
